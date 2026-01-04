@@ -1,0 +1,81 @@
+/* Global page styles */
+body {
+    margin: 0;
+    background-color: black;
+}
+
+/* UI panel */
+#ui-panel {
+    position: fixed;
+    left: 12px;
+    top: 12px;
+    background: rgba(0, 0, 0, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 8px;
+    border-radius: 6px;
+    z-index: 999;
+}
+
+#ui-panel .ui-content {
+    font-family: Arial, sans-serif;
+    color: #ddd;
+    padding: 8px;
+}
+
+.coord-input {
+    width: 120px;
+    margin: 4px 0;
+    background: rgba(255, 255, 255, 0.06);
+    color: #eee;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 6px;
+}
+
+.city-select {
+    margin: 4px 0;
+    background: rgba(255, 255, 255, 0.06);
+    color: #eee;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 6px;
+}
+
+.city-select option {
+    background: rgba(0, 0, 0, 0.98);
+    color: #eee;
+}
+
+.route-select {
+    width: 100%;
+    margin: 4px 0;
+    background: rgba(255, 255, 255, 0.06);
+    color: #eee;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 6px;
+}
+
+.route-select option {
+    background: rgba(0, 0, 0, 0.98);
+    color: #eee;
+}
+
+.ui-button {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.06);
+    color: #eee;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 6px;
+}
+
+.spacer {
+    height: 8px;
+}
+
+#ui-panel input::placeholder {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+#msg {
+    color: #f88;
+    margin-top: 6px;
+    font-size: 12px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>How Long?</title>
+        <script type="importmap">
+            {
+                "imports": {
+                    "three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+                    "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <link rel="stylesheet" href="styles.css" />
+        <div id="ui-panel">
+            <div class="ui-content">
+                <div><strong>Point A</strong></div>
+                <select id="cityA" class="city-select"></select>
+                <input
+                    id="latA"
+                    class="coord-input"
+                    placeholder="lat (-90..90)"
+                />
+                <input
+                    id="lonA"
+                    class="coord-input"
+                    placeholder="lon (-180..180)"
+                />
+                <div class="spacer"></div>
+                <div><strong>Point B</strong></div>
+                <select id="cityB" class="city-select"></select>
+                <input
+                    id="latB"
+                    class="coord-input"
+                    placeholder="lat (-90..90)"
+                />
+                <input
+                    id="lonB"
+                    class="coord-input"
+                    placeholder="lon (-180..180)"
+                />
+                <div class="spacer"></div>
+                <button id="applyBtn" class="ui-button">Place Points</button>
+                <div id="msg"></div>
+                <div id="distance" class="distance"></div>
+                <div class="spacer"></div>
+                <div><strong>Route Type</strong></div>
+                <select id="routeType" class="route-select">
+                    <option value="walk">average human walking</option>
+                    <option value="run">fastest human running</option>
+                    <option value="cheetah">fastest cheetah</option>
+                    <option value="train">Shanghai Maglev</option>
+                    <option value="airplane">commercial airplane</option>
+                    <option value="soundair">sound in air</option>
+                    <option value="soundwater">sound in fresh water</option>
+                    <option value="x43">NASA X-43</option>
+                    <option value="optic">light in optic fiber</option>
+                    <option value="light">light in vacuum</option>
+                </select>
+                <div class="spacer"></div>
+                <div id="travel" class="travel"></div>
+            </div>
+        </div>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+export default {
+    Custom: null,
+    "San Francisco": { lat: 37.7749, lon: -122.4194 },
+    "New York": { lat: 40.7128, lon: -74.006 },
+    London: { lat: 51.5074, lon: -0.1278 },
+    Amsterdam: { lat: 52.3709257, lon: 4.9321986 },
+    "Los Angeles": { lat: 34.053345, lon: -118.242349 },
+    Tokyo: { lat: 35.6895, lon: 139.6917 },
+    Sydney: { lat: -33.8688, lon: 151.2093 },
+    "Rio de Janeiro": { lat: -22.9068, lon: -43.1729 },
+    Cairo: { lat: 30.0444, lon: 31.2357 },
+    Toronto: { lat: 43.6426, lon: -79.3871 },
+    Beijing: { lat: 39.9075, lon: 116.397 },
+    "Hong Kong": { lat: 22.302711, lon: 114.177216 },
+};
